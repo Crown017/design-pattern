@@ -1,4 +1,4 @@
-package com.clown.decorator;
+package com.clown.decorator.pattern;
 
 /**
  * 具体的组件

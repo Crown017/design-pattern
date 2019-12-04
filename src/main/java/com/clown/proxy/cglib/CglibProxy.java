@@ -5,6 +5,13 @@ import net.sf.cglib.proxy.MethodProxy;
 
 import java.lang.reflect.Method;
 
+
+/**
+ * 辅助类必须继承MethodInterceptor接口
+ *
+ * 继承了这个接口的类在Cglib 中叫做Callable
+ * @param <T>
+ */
 public class CglibProxy<T> implements MethodInterceptor {
 
     /**

@@ -1,4 +1,4 @@
-package com.clown.decorator;
+package com.clown.decorator.pattern;
 
 public class Decortor implements Component {
 

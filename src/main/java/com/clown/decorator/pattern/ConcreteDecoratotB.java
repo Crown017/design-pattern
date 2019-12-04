@@ -1,8 +1,8 @@
-package com.clown.decorator;
+package com.clown.decorator.pattern;
 
-public class ConcreteDecoratotA extends Decortor {
+public class ConcreteDecoratotB extends Decortor {
 
-    public ConcreteDecoratotA(Component component) {
+    public ConcreteDecoratotB(Component component) {
         super(component);
     }
 
@@ -13,6 +13,6 @@ public class ConcreteDecoratotA extends Decortor {
     }
 
     public void doAnotherThing(){
-        System.out.println("功能B");
+        System.out.println("功能C");
     }
 }

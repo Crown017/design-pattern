@@ -1,4 +1,4 @@
-package com.clown.decorator;
+package com.clown.decorator.pattern;
 
 public class DecoratorTest{
     public static void main(String[] args) {

@@ -16,6 +16,12 @@ public class LazyMinister {
         this.userName = userName;
     }
 
+    /**
+     * 懒汉式
+     *
+     * 为了保证线程的安全必须要加锁
+     * @return
+     */
     public static LazyMinister getInstance(){
 
         synchronized (object) {

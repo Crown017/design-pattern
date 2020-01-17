@@ -7,11 +7,11 @@ import java.lang.reflect.Method;
 /**
  * 代理类的辅助类
  */
-public class ProxyFactory implements InvocationHandler {
+public class MyHandler implements InvocationHandler {
 
     private Subject subject;
 
-    public ProxyFactory(Subject subject) {
+    public MyHandler(Subject subject) {
         this.subject = subject;
     }
 
